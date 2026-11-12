@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Declaracao obrigatoria que indica a versao do XML e a codificacao de caracteres (UTF-8 suporta acentos) -->
+
+<!-- No raiz (root element). Todo o documento XML tem de ter exatamente um elemento principal que abraca os restantes -->
+<videoclube>
+    <!-- Representa uma entidade individual (um filme) -->
+    <filme>
+        <!-- Propriedade do filme: Titulo -->
+        <titulo>O Padrinho</titulo>
+        <!-- Propriedade do filme: Ano de lancamento -->
+        <ano>1972</ano>
+    </filme>
+    <filme>
+        <titulo>Matrix</titulo>
+        <ano>1999</ano>
+    </filme>
+    <filme>
+        <titulo>Inception</titulo>
+        <ano>2010</ano>
+    </filme>
+</videoclube>

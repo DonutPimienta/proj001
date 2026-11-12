@@ -1,0 +1,25 @@
+<!-- Define o tipo de documento como HTML5 -->
+<!DOCTYPE html>
+<!-- Tag principal que indica o idioma da pagina -->
+<html lang="pt">
+<!-- Seccao invisivel (metadados e configuracoes da pagina) -->
+<head>
+    <!-- Define a codificacao de caracteres para suportar acentos -->
+    <meta charset="UTF-8">
+    <!-- Titulo que aparece no separador do navegador -->
+    <title>Integração HTML e XML</title>
+</head>
+<!-- Seccao visivel da pagina (o que o utilizador ve) -->
+<body>
+    <!-- Titulo principal da pagina (Header 1) -->
+    <h1>Catálogo de Filmes</h1>
+    
+    <!-- Lista nao ordenada (Unordered List) vazia.
+         O atributo 'id' serve como "alvo" para o JavaScript encontrar este elemento e injetar dados aqui. -->
+    <ul id="lista-filmes"></ul>
+
+    <!-- Inclusao do ficheiro JavaScript externo (o motor que vai carregar o XML).
+         Coloca-se no fim do body para garantir que o HTML carrega primeiro. -->
+    <script src="app.js"></script>
+</body>
+</html>
